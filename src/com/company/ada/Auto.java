@@ -1,6 +1,6 @@
 package com.company.ada;
 
-public class Auto {
+public class Auto{
     private Motor motor;
     private String patente;
     private Integer cantidad_puertas;
@@ -44,11 +44,11 @@ public class Auto {
                 '}';
     }
 
-    public void hacerEncender(Motor motor) {
+    public void hacerEncender() {
         motor.encender();
     }
 
-    public void acelera(Motor motor) {
+    public void acelera() {
         motor.acelerar();
     }
 }
